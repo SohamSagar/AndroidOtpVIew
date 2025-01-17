@@ -4,7 +4,7 @@
     A custom control to enter a code usually in cases of authentication.
 </p>
 
-<img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_1.png" height="10px" width="10px"/> &nbsp;&nbsp;
+<img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_1.png" height="30%" width="30%"/> &nbsp;&nbsp;
 <img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_2.png" /> &nbsp;&nbsp;
 <img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_3.png" /> &nbsp;&nbsp;
 
