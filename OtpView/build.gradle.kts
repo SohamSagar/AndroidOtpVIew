@@ -2,6 +2,8 @@ plugins {
     alias(libs.plugins.android.library)
 }
 
+group = "com.sohamsagar.otpview"
+
 android {
     namespace = "com.sohamsagar.otpview"
     compileSdk = 34
