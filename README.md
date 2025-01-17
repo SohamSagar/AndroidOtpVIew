@@ -24,7 +24,7 @@ allprojects {
 Step 2. Add the dependency
 ```java
 dependencies {
-        implementation 'com.github.SohamSagar:AndroidOtpVIew:OtpView:1.0.0'
+    implementation 'com.github.SohamSagar:AndroidOtpVIew:1.0.0'
 }
 ```
 
