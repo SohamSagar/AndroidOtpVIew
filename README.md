@@ -4,21 +4,15 @@
     A custom control to enter a code usually in cases of authentication.
 </p>
 
-<img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_1.png"/> &nbsp;&nbsp;
+<img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_1.png" height="10px" width="10px"/> &nbsp;&nbsp;
 <img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_2.png" /> &nbsp;&nbsp;
 <img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_3.png" /> &nbsp;&nbsp;
-
-# Supporting Compose OtpView/PinView
-
-Compose PinView/OtpView is an independent project with ongoing development and support made possible thanks to your donations.
-- [Become a backer](https://www.paypal.me/mukeshsolanki)
 
 ## How to integrate into your app?
 Integrating the project is simple. All you need to do is follow the below steps
 
 Step 1. Add the JitPack repository to your build file. Add it in your root build.gradle at the end of repositories:
 
-```java
 allprojects {
   repositories {
     ...
@@ -34,7 +28,6 @@ dependencies {
 ```
 
 Add the view in your xml file like
-```xml
 <com.sohamsagar.otpview.OtpView
         android:id="@+id/ov"
         android:layout_width="wrap_content"
