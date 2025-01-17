@@ -4,9 +4,17 @@
     A custom control to enter a code usually in cases of authentication.
 </p>
 
-<img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_1.png" height="25%" width="25%"/> &nbsp;&nbsp;
-<img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_2.png" height="25%" width="25%"/> &nbsp;&nbsp;
-<img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_3.png" height="25%" width="25%"/> &nbsp;&nbsp;
+<div style="text-align: center;">
+        <div style="display: inline-block; margin: 0 10px;">
+            <img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_1.png" height="25%" width="25%" />
+        </div>
+        <div style="display: inline-block; margin: 0 10px;">
+            <img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_2.png" height="25%" width="25%" />
+        </div>
+        <div style="display: inline-block; margin: 0 10px;">
+            <img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_3.png" height="25%" width="25%" />
+        </div>
+</div>
 
 ## How to integrate into your app?
 Integrating the project is simple. All you need to do is follow the below steps
