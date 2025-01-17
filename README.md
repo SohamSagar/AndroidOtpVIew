@@ -27,7 +27,7 @@ dependencies {
         implementation 'com.github.SohamSagar:AndroidOtpVIew:OtpView:1.0.0'
 }
 ```
-
+```
 Add the view in your xml file like
 <com.sohamsagar.otpview.OtpView
         android:id="@+id/ov"
