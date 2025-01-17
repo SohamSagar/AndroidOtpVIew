@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.sohamsagar.otpview.OtpView
+        android:id="@+id/ov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:otpLength="5"
+        app:otpTextColor="@color/black"
+        app:otpBoxBackground="#03A9F4"
+        app:otpBoxSize="50dp"
+        app:otpBoxRadius="5dp"
+        app:otpBoxElevation="20dp"
+        app:otpBoxCardElevation="5dp" />
+
+    <Button
+        android:id="@+id/btnGetOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/get_otp"/>
+
+</LinearLayout>

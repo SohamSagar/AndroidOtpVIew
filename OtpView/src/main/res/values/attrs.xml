@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="otpview">
+        <attr name="otpLength" format="integer"/>
+
+        <attr name="otpTextColor" format="color" />
+
+        <attr name="otpBoxBackground" format="color" />
+
+        <attr name="otpBoxSize" format="dimension" />
+
+        <attr name="otpBoxRadius" format="dimension" />
+
+        <attr name="otpBoxElevation" format="dimension" />
+
+        <attr name="otpBoxCardElevation" format="dimension" />
+    </declare-styleable>
+</resources>
