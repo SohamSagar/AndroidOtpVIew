@@ -1,6 +1,6 @@
 <h1 align="center">Android OtpView/PinView</h1>
+[![](https://jitpack.io/v/SohamSagar/AndroidOtpVIew.svg)](https://jitpack.io/#SohamSagar/AndroidOtpVIew)
 <p align="center">
-  [![](https://jitpack.io/v/SohamSagar/AndroidOtpVIew.svg)](https://jitpack.io/#SohamSagar/AndroidOtpVIew)
   <br />
     A custom control to enter a code usually in cases of authentication.
   <br />
