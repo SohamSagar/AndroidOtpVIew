@@ -1,9 +1,10 @@
 plugins {
     alias(libs.plugins.android.library)
-    id("maven-publish")
+    id ("maven-publish")
 }
 
-group = "com.sohamsagar.otpview"
+group = "com.sohamsagar"
+version = "1.0.0"
 
 android {
     namespace = "com.sohamsagar.otpview"
