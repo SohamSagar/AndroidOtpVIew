@@ -1,10 +1,11 @@
 <h1 align="center">Android OtpView/PinView</h1>
 <p align="center">
-  <br /><br />
+  <br />
     A custom control to enter a code usually in cases of authentication.
+  <br />
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_1.png" height="20%" width="20%"/> &nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_1.png" height="20%" width="20%"/> &nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_2.png" height="20%" width="20%"/> &nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_3.png" height="20%" width="20%"/> &nbsp;&nbsp;
 
