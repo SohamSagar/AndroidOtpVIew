@@ -27,7 +27,12 @@ dependencies {
         implementation 'com.github.SohamSagar:AndroidOtpVIew:OtpView:1.0.0'
 }
 ```
-```
+
+## How to use the library?
+Okay seems like you integrated the library in your project but **how do you use it**? Well its really easy.
+
+- Using Older View System (aka XML)
+Add the view in your xml file like
 ```xml
 Add the view in your xml file like
 <com.sohamsagar.otpview.OtpView
