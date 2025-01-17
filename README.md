@@ -6,11 +6,7 @@
 
 <div style="display: inline-block; margin: 0 10px;">
   <img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_1.png" height="25%" width="25%" />
-</div>
-<div style="display: inline-block; margin: 0 10px;">
   <img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_2.png" height="25%" width="25%" />
-</div>
-<div style="display: inline-block; margin: 0 10px;">
   <img src="https://github.com/SohamSagar/AndroidOtpVIew/blob/master/screenshots/Screenshot_3.png" height="25%" width="25%" />
 </div>
 
