@@ -43,8 +43,8 @@ publishing {
             // Use the correct component name for the Android library (e.g., "release" or "aar")
             artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
             // Specify Group, Artifact, and Version
-            groupId = "com.github.SohamSagar"  // Replace with your GitHub username
-            artifactId = "AndroidOtpVIew"  // Replace with your repository name
+            groupId = "com.sohamsagar"  // Replace with your GitHub username
+            artifactId = "otpview"  // Replace with your repository name
             version = "1.0.0"  // Match the tag you push to GitHub
         }
     }
