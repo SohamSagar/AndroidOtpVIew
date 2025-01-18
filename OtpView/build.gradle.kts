@@ -3,9 +3,6 @@ plugins {
     id ("maven-publish")
 }
 
-group = "com.sohamsagar"
-version = "1.0.0"
-
 android {
     namespace = "com.sohamsagar.otpview"
     compileSdk = 34
@@ -39,4 +36,21 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+}
+publishing {
+    publications {
+        create<MavenPublication>("mavenJava") {
+            // Use the correct component name for the Android library (e.g., "release" or "aar")
+            artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
+            // Specify Group, Artifact, and Version
+            groupId = "com.github.SohamSagar"  // Replace with your GitHub username
+            artifactId = "AndroidOtpVIew"  // Replace with your repository name
+            version = "1.0.0"  // Match the tag you push to GitHub
+        }
+    }
+    repositories {
+        maven {
+            url = uri("https://jitpack.io")
+        }
+    }
 }
