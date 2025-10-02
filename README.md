@@ -113,6 +113,8 @@ parentLayout.addView(otpView)
 
 val otp = otpView.getOtp()
 ```
+---
+
 ### Custom Attributes & Public Methods
 | Name / Attribute                 | Type / Parameters | Default / Return Type | Description & Example                                                                                |
 | -------------------------------- | ----------------- | --------------------- | ---------------------------------------------------------------------------------------------------- |
