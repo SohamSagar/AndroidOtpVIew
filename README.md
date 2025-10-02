@@ -130,5 +130,21 @@ val otp = otpView.getOtp()
 | `setOtpBoxRadius(int radius)`    | int radius        | void                  | Sets the corner radius of boxes programmatically. Example: `otpView.setOtpBoxRadius(8);`             |
 | `setOtpBoxSize(int size)`        | int size          | void                  | Sets the width & height of boxes programmatically. Example: `otpView.setOtpBoxSize(60);`             |
 
+### Getting Help
 
+To report a specific problem or feature request, open a new issue on GitHub. For questions, suggestions, or anything else, email the discussion group, or join the IRC channel: irc.freenode.net#glide-library.
+
+### Contributing
+
+Before submitting pull requests, contributors must follow the contribution guidelines and ensure their changes adhere to the library standards.
+
+### Thanks
+
+The Android team and open-source contributors who inspired this library.
+
+Everyone who has reported issues, suggested improvements, or contributed code.
+
+### Author
+
+Soham Sagar – GitHub
 
