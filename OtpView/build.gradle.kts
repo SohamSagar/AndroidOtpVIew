@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.library)
-    id ("maven-publish")
+    id("maven-publish")
 }
 
 android {
@@ -9,7 +9,6 @@ android {
 
     defaultConfig {
         minSdk = 23
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
     }
@@ -23,32 +22,34 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
+    publishing {
+        singleVariant("release")
+    }
 }
 
 dependencies {
-
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
-publishing {
-    publications {
-        create<MavenPublication>("mavenJava") {
-            artifact("${layout.buildDirectory}/outputs/aar/${artifactId}-release.aar")
-            groupId = "com.sohamsagar"
-            artifactId = "AndroidOtpVIew"
-            version = "1.0.0"
-        }
-    }
-    repositories {
-        maven {
-            url = uri("https://jitpack.io")
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "com.github.SohamSagar"
+                artifactId = "OtpView"
+                version = "1.0.0"
+            }
         }
     }
 }
