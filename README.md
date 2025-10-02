@@ -9,7 +9,7 @@
   </a>
 </p>
 
-A customizable OTP (One-Time Password) input view for Android. Automatically handles focus, deletion, and OTP value retrieval.
+OTPView is a customizable Android LinearLayout component that allows users to input OTP (One-Time Password) codes easily. Each OTP digit is displayed inside a CardView, and the view handles focus movement and deletion automaticall
 
 ---
 
