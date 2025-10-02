@@ -146,14 +146,6 @@ Before submitting pull requests, contributors must follow the contribution guide
 
 ---
 
-### Thanks
-
-The Android team and open-source contributors who inspired this library.
-
-Everyone who has reported issues, suggested improvements, or contributed code.
-
----
-
 ### Author
 
 Soham Sagar – GitHub
