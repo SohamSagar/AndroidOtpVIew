@@ -136,7 +136,6 @@ public class OtpView extends LinearLayout {
         }
     }
 
-    // Method to get the OTP entered by the user as a string
     public String getOtp() {
         StringBuilder otpString = new StringBuilder();
         for (EditText editText : editTextList) {
