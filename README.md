@@ -113,7 +113,7 @@ parentLayout.addView(otpView)
 
 val otp = otpView.getOtp()
 ```
-
+### Custom Attributes
 | Attribute             | Type      | Default           | Description & Example                                                              |
 | --------------------- | --------- | ----------------- | ---------------------------------------------------------------------------------- |
 | `otpLength`           | int       | 8                 | Number of OTP digits. Example: `app:otpLength="6"`                                 |
