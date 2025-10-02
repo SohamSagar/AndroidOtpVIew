@@ -49,7 +49,7 @@ allprojects {
 }
 ```
 
-###Add Dependency
+### Add Dependency
 
 Add this to your module build.gradle:
 
@@ -57,7 +57,7 @@ dependencies {
     implementation 'com.github.SohamSagar:AndroidOtpVIew:1.0.0'
 }
 
-###Usage
+### Usage
 XML Usage
 <com.sohamsagar.otpview.OtpView
     android:id="@+id/otpView"
@@ -72,13 +72,13 @@ XML Usage
     app:otpBoxCardElevation="2dp" />
 
 
-###Retrieve OTP:
+### Retrieve OTP:
 
 String otp = ((OtpView)findViewById(R.id.otpView)).getOtp();
 
 val otp = findViewById<OtpView>(R.id.otpView).getOtp()
 
-###Programmatic Usage
+### Programmatic Usage
 Java
 OtpView otpView = new OtpView(this);
 otpView.setOtpLength(6);
