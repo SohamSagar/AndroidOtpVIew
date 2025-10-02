@@ -114,20 +114,13 @@ parentLayout.addView(otpView)
 val otp = otpView.getOtp()
 ```
 
-Custom Attributes
-Attribute	Type	Default	Description & Example
-otpLength	int	8	Number of OTP digits. Example: app:otpLength="6"
-otpTextColor	color	Black (#000000)	Text color inside OTP boxes. Example: app:otpTextColor="@color/black"
-otpBoxBackground	color	White (#FFFFFF)	Background color of OTP boxes. Example: app:otpBoxBackground="#03A9F4"
-otpBoxRadius	dimension	0dp	Corner radius of OTP boxes. Example: app:otpBoxRadius="5dp"
-otpBoxElevation	dimension	0dp	Shadow elevation of OTP boxes. Example: app:otpBoxElevation="4dp"
-otpBoxCardElevation	dimension	0dp	CardView elevation for OTP box container. Example: app:otpBoxCardElevation="2dp"
-otpBoxSize	dimension	80dp	Width & height of OTP boxes. Example: app:otpBoxSize="50dp"
-Public Methods
-Method	Parameters	Return Type	Description	Example
-getOtp()	None	String	Returns the OTP entered by the user as a string.	String otp = otpView.getOtp();
-setOtpLength(int length)	int length	void	Sets the number of OTP digits programmatically.	otpView.setOtpLength(6);
-setOtpTextColor(int color)	int color	void	Sets the text color programmatically.	otpView.setOtpTextColor(Color.RED);
-setOtpBoxBackground(int color)	int color	void	Sets the box background color programmatically.	otpView.setOtpBoxBackground(Color.WHITE);
-setOtpBoxRadius(int radius)	int radius	void	Sets the corner radius of boxes programmatically.	otpView.setOtpBoxRadius(8);
-setOtpBoxSize(int size)	int size	void
+| Attribute             | Type      | Default           | Description & Example                                                              |
+| --------------------- | --------- | ----------------- | ---------------------------------------------------------------------------------- |
+| `otpLength`           | int       | 8                 | Number of OTP digits. Example: `app:otpLength="6"`                                 |
+| `otpTextColor`        | color     | Black (`#000000`) | Text color inside OTP boxes. Example: `app:otpTextColor="@color/black"`            |
+| `otpBoxBackground`    | color     | White (`#FFFFFF`) | Background color of OTP boxes. Example: `app:otpBoxBackground="#03A9F4"`           |
+| `otpBoxRadius`        | dimension | 0dp               | Corner radius of OTP boxes. Example: `app:otpBoxRadius="5dp"`                      |
+| `otpBoxElevation`     | dimension | 0dp               | Shadow elevation of OTP boxes. Example: `app:otpBoxElevation="4dp"`                |
+| `otpBoxCardElevation` | dimension | 0dp               | CardView elevation for OTP box container. Example: `app:otpBoxCardElevation="2dp"` |
+| `otpBoxSize`          | dimension | 80dp              | Width & height of OTP boxes. Example: `app:otpBoxSize="50dp"`                      |
+
