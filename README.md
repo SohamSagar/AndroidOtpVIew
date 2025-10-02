@@ -136,13 +136,7 @@ val otp = otpView.getOtp()
 
 ### Getting Help
 
-To report a specific problem or feature request, open a new issue on GitHub. For questions, suggestions, or anything else, email the discussion group, or join the IRC channel: irc.freenode.net#glide-library.
-
----
-
-### Contributing
-
-Before submitting pull requests, contributors must follow the contribution guidelines and ensure their changes adhere to the library standards.
+If you encounter a problem or have a feature request, please open a new issue on GitHub. For questions or suggestions, feel free to reach out.
 
 ---
 
