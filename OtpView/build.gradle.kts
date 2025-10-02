@@ -40,12 +40,10 @@ dependencies {
 publishing {
     publications {
         create<MavenPublication>("mavenJava") {
-            // Use the correct component name for the Android library (e.g., "release" or "aar")
-            artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
-            // Specify Group, Artifact, and Version
-            groupId = "com.sohamsagar"  // Replace with your GitHub username
-            artifactId = "otpview"  // Replace with your repository name
-            version = "1.0.0"  // Match the tag you push to GitHub
+            artifact("${layout.buildDirectory}/outputs/aar/${artifactId}-release.aar")
+            groupId = "com.sohamsagar"
+            artifactId = "AndroidOtpVIew"
+            version = "1.0.0"
         }
     }
     repositories {
