@@ -53,9 +53,11 @@ allprojects {
 
 Add this to your module build.gradle:
 
+```
 dependencies {
     implementation 'com.github.SohamSagar:AndroidOtpVIew:1.0.0'
 }
+```
 
 ### Usage
 XML Usage
