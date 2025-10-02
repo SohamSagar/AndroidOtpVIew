@@ -59,6 +59,7 @@ dependencies {
 
 ### Usage
 XML Usage
+```
 <com.sohamsagar.otpview.OtpView
     android:id="@+id/otpView"
     android:layout_width="wrap_content"
@@ -70,16 +71,18 @@ XML Usage
     app:otpBoxRadius="8dp"
     app:otpBoxElevation="4dp"
     app:otpBoxCardElevation="2dp" />
-
+```
 
 ### Retrieve OTP:
 
+```
 String otp = ((OtpView)findViewById(R.id.otpView)).getOtp();
 
 val otp = findViewById<OtpView>(R.id.otpView).getOtp()
+```
 
 ### Programmatic Usage
-Java
+```Java
 OtpView otpView = new OtpView(this);
 otpView.setOtpLength(6);
 otpView.setOtpTextColor(Color.BLACK);
@@ -91,8 +94,9 @@ LinearLayout parentLayout = findViewById(R.id.parentLayout);
 parentLayout.addView(otpView);
 
 String otp = otpView.getOtp();
+```
 
-Kotlin
+```Kotlin
 val otpView = OtpView(this).apply {
     otpLength = 6
     otpTextColor = Color.BLACK
@@ -105,6 +109,7 @@ val parentLayout = findViewById<LinearLayout>(R.id.parentLayout)
 parentLayout.addView(otpView)
 
 val otp = otpView.getOtp()
+```
 
 Custom Attributes
 Attribute	Type	Default	Description & Example
