@@ -82,6 +82,7 @@ val otp = findViewById<OtpView>(R.id.otpView).getOtp()
 ```
 
 ### Programmatic Usage
+Java
 ```Java
 OtpView otpView = new OtpView(this);
 otpView.setOtpLength(6);
@@ -95,7 +96,7 @@ parentLayout.addView(otpView);
 
 String otp = otpView.getOtp();
 ```
-
+Kotlin
 ```Kotlin
 val otpView = OtpView(this).apply {
     otpLength = 6
